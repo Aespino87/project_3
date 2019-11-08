@@ -36,7 +36,7 @@ function generatePassword(){
     }
 
     if  (charQuant.value > 128) {
-        alert("Too many Characters");
+        alert("Too many characters!!");
         return;
     }
     
