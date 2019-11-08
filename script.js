@@ -46,14 +46,13 @@ function generatePassword(){
         characters += lowerCase;
     }
      
-     //(wantNum.checked) ? 
 
      yourPwd.value = password(charQuant.value, characters);
 
      
 }
 
-// Function to generate post password
+// Function to post password
  function password (l,characters){
      var pwd = "";
 
