@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		
+		<title>Adam Espino - Password Generator</title>
+		
+	<!---	<link href="css/reset.css" rel="stylesheet">-->
+        
+        <!-- Main Stylesheet -->
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+
+	</head>
+
+	<body>
+            <header class="mb-25">
+
+                    
+                            
+            
+                                         
+
+                    
+                    
+                          <!---  <div class="navigation">
+                            
+                            <nav class="navbar navbar-white bg-dark">
+                                    <a class="navbar-brand" href="#"> <h1>Adam Espino</h1></a>
+                                    <ul class="nav justify-content-end">
+                                            <li class="nav-item text-primary">
+                                              <a class="nav-link" href="index.html">About</a>
+                                            </li>
+                                            <li class="nav-item" >
+                                              <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                            </li>
+                                            <li class="nav-item">
+                                              <a class="nav-link" href="contact.html">Contact</a>
+                                            </li>
+                                            
+                                          </ul>
+                                  </nav>
+                            </div>-->
+                   
+                    
+                           
+             </header>
+        
+         <div class="container">
+            
+            <div class="row mt-4 mb-5">
+                <h1 class="text-center col-12">Password Generator</h1>
+                <br>
+                <div class="bg-white border-secondary p-4 col-md-8 col-sm-12 mx-auto mb-5 shadow">
+                    <h2>Generate a Password</h2>
+
+                    <hr>
+                
+            
+                        
+                    <form class="needs-validation" novalidate>
+                      
+
+                        
+                        <div class="form-group">
+                            <label for="number of characters">How many Characters do you want?</label>
+                            <input type="number" value="8" min="8" max="128" id="charQuant" placeholder="8 - 128">
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="upper">
+                                    <label class="form-check-label" for="inlineFormCheck">
+                                      Upper Case
+                                    </label>
+                                    <br>
+
+                                    <input class="form-check-input" type="checkbox" id="lower">
+                                    <label class="form-check-label" for="inlineFormCheck">
+                                      Lower Case
+                                    </label>
+                                    <br>
+
+                                    <input class="form-check-input" type="checkbox" id="numbers">
+                                    <label class="form-check-label" for="inlineFormCheck">
+                                        Numbers
+                                    </label>
+                                    <br>
+
+                                    <input class="form-check-input" type="checkbox" id="symbols">
+                                    <label class="form-check-label" for="inlineFormCheck">
+                                        Symbols
+                                    </label>
+                                  
+                                </div>
+                              </div>
+                            
+                          <input class="form-control" type="text" placeholder="Your Secure Password" id="yourPwd"></input>
+                          <small id="passwordHelpBlock" class="form-text text-muted">
+                              Your password must be 8-20 characters long and must not contain spaces or emoji.
+                            </small>
+                        </div>
+                        <hr>
+                        <button onclick="generatePassword()" class="btn btn-danger mb-2 col-md-4 " id="generate" type="button">Generate Password</button>
+                        <button onclick="copyPassword()" class="btn btn-secondary mb-2 col-md-4 float-right" type="button">Copy to Clipboard</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+
+        
+        <footer class="fixed-bottom">
+                <p>Copyright &copy;</p>
+            
+        </footer>
+        <script src="script.js"></script>
+         
+    </body>
+    
+  
+    
+</html>
