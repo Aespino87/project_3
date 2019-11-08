@@ -1,23 +1,6 @@
 
 
 
-nav li a {
-    color: #777;
-    text-decoration: none;
-}
-nav a:hover {
-    color: #054905;
-    font-weight: 700;
-}
-
-nav a:active {
-    color: #054905;
-    font-weight: 700;
-
-}
-
-/* End Nav */
-
 
 
 
@@ -57,12 +40,7 @@ body {
    
 }
 
-.caption-box {
-    background-color: #054905;
-    position: relative;
-    bottom: 90px;
 
-}
 
 
 
