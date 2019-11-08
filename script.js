@@ -23,8 +23,8 @@ function generatePassword(){
 
     if (!wantNum.checked && !wantSymb.checked && !wantUpper.checked && !wantLower.checked){
         alert("Must pick one option!!");
-        
- // Learned about returned statements from Co-worker
+
+ // Learned about return statements from Co-worker
         return;
     }
     
