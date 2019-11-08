@@ -24,7 +24,19 @@ function generatePassword(){
     if (!wantNum.checked && !wantSymb.checked && !wantUpper.checked && !wantLower.checked){
         alert("Must pick one option!!");
 
+    
+
  // Learned about return statements from Co-worker
+        return;
+    }
+
+    if (charQuant.value < 8)  {
+        alert("Needs more characters!!");
+        return;
+    }
+
+    if  (charQuant.value > 128) {
+        alert("Too many Characters");
         return;
     }
     
